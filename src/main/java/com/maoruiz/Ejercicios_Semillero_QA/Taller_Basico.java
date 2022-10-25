@@ -1,4 +1,4 @@
-package Ejercicios_Semillero_QA;
+package com.maoruiz.Ejercicios_Semillero_QA;
 
 import java.util.StringTokenizer;
 

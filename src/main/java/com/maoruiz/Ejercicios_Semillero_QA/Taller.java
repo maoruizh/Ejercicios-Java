@@ -1,11 +1,11 @@
-package Ejercicios_Semillero_QA;
-
+package com.maoruiz.Ejercicios_Semillero_QA;
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Taller {
     public static void main(String[] args) {
 
-  /*
+/*
 //1)Algoritmo que lea 4 números, calculando y escribiendo el valor de su suma, resta, multiplicación.
         System.out.println("\nEste es el resultado del ejercicio # 1");
         int numero1 = 10, numero2 = 20, numero3 = 30, numero4 = 40;
@@ -21,10 +21,12 @@ public class Taller {
 //2)Convertir una frase a mayúsculas o minúsculas, que daremos opción a que el usuario lo pida y mostraremos el resultado por pantalla.
         System.out.println("\nEste es el resultado del ejercicio # 2");
         String frase = "Que taller tan bueno";
-        String tipoDeLetra = JOptionPane.showInputDialog("Quieres ver la frase en MAYUSCULA o minuscula");
-        if (tipoDeLetra == "MAYUSCULA"){
-            System.out.println(frase.toLowerCase()); //No está funcionando bien
-        }else System.out.println(frase.toUpperCase());
+        Scanner tipoDeLetra = new Scanner(System.in);
+        System.out.println("Quieres ver la frase en MAYUSCULA o minuscula?");
+        String busqueda = tipoDeLetra.next();
+        if (busqueda.equals("minuscula")) {
+            System.out.println(frase.toLowerCase());
+        } else System.out.println(frase.toUpperCase());
         System.out.println("-----------------------------------------------------------------------------------------");
 
 //3)Mostrar la longitud de una cadena.
@@ -38,7 +40,7 @@ public class Taller {
         String nombre1 = JOptionPane.showInputDialog("Introduce el primer nombre");
         String nombre2 = JOptionPane.showInputDialog("Introduce el segundo nombre");
         System.out.println("El primer nombre es " + nombre1 + " y el segundo nombre es " + nombre2);
-        if (nombre1 == nombre2){
+        if (nombre1.equals(nombre2)){
             System.out.println("Los dos nombres son diferentes"); //No está funcionando bien
         } else System.out.println("Los nombres son iguales");
         System.out.println("-----------------------------------------------------------------------------------------");
@@ -68,7 +70,7 @@ public class Taller {
         }
         System.out.println("El resultado de la suma de todos los números del arreglo es = "+ suma);
         System.out.println("-----------------------------------------------------------------------------------------");
-*/
+
 //9)Buscar un elemento dentro de un vector que nosotros le pedimos por teclado. Indicar las posiciones donde se encuentra.
         //Y si no se encuentra, imprimir el mensaje ”no se encuentra en valor ingresado”
         System.out.println("\nEste es el resultado del ejercicio # 9");
@@ -88,7 +90,7 @@ public class Taller {
             System.out.println("No se encontró");
         }
         System.out.println("-----------------------------------------------------------------------------------------");
-
+*/
 //10)Crea dos vectores que tengan el mismo tamaño (lo pedirá por teclado), en uno de ellos almacenaras nombres de personas como cadenas, en el otro vector ira almacenando la longitud de los nombres.
         //Muestra por pantalla el nombre y la longitud que tiene. Puedes usar funciones si lo deseas.
         //(Una función es un subprograma que acepta parámetros y devuelve un único resultado Los parámetros serán los datos de entrada para realizar la función.
