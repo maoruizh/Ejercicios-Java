@@ -28,15 +28,12 @@ public class Taller_Basico {
         System.out.println("\nEste es el resultado del ejercicio # 2 ");
         int numero1 = 1, numero3 = 3, numero4 = 4;
         double numero2 = 2;
-        System.out.println(numero1);
-        System.out.println(numero2);
-        System.out.println(numero3);
-        System.out.println(numero4);
-        System.out.println("El resultado de la suma es " + (numero1 + numero2));
-        System.out.println("El resultado de la resta es " + (numero2 - numero1));
-        System.out.println("El resultado de la multiplicación es " + (numero4 * numero3));
-        System.out.println("El resultado de la division es " + (numero1 / numero2));
-        System.out.println("El resultado del residuo es " + (numero4 % numero3));
+        System.out.println("Estos son los valores de cada una de las variables: "+numero1 + " "+ numero2+ " " + numero3 + " " + numero4 );
+        System.out.println("Este es el resultado de la suma es " + (numero1 + numero2));
+        System.out.println("Este es el resultado de la resta es " + (numero2 - numero1));
+        System.out.println("Este es el resultado de la multiplicación es " + (numero4 * numero3));
+        System.out.println("Este es el resultado de la division es " + (numero1 / numero2));
+        System.out.println("Este es el resultado del residuo es " + (numero4 % numero3));
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //3)Escriba un programa en java que lea dos caracteres cualquiera y compruebe si son iguales.
@@ -160,7 +157,7 @@ public class Taller_Basico {
     //13)Escriba un programa en java que después de declarar dos variables las concatene y las muestre en consola
         System.out.println("\nEste es el resultado del ejercicio # 13 ");
         int numero5 = 1, numero6 = 2;
-        System.out.println("el resultado de concatenar las variables numero5 y numero6 es= " + (numero5 + numero6));
+        System.out.println("El resultado de concatenar las variables numero5 y numero6 es= " + (numero5 + numero6));
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //14)Realizar un programa en java que: convierta todos los caracteres de una cadena de caracteres en mayúscula. Mostrar por consola la prueba de que funciona.
