@@ -1,0 +1,19 @@
+1-Se crea un package llamado Poo1
+    Al package le meto el main que se creo por defecto.
+    Creo las variables dentro de la clase que va a ser la principal o padre (Persona) y las defino como publicas
+        a las variables le creo constructor
+            *Selecciono todas las variables, luego click derecho. Generate, constructor, se seleccionan de nuevo todas las variables y se da en ok.
+        Luego a las variables les creo el getter y el setter, esto se hace Selecciono todas las variables, luego click derecho.
+            Generate, getter and setter, se seleccionan de nuevo todas las variables y se da en ok.
+
+2-Luego creo una clase nueva, la llame (Alumno) la cual sera hija de la principal o padre (Persona)
+    Le digo que es la extension del padre, me muestra en rojo un error. Para solucionarlo le digo que me cree el constructor.
+    Luego le creo la variable publica que lleva la clase alumno y que no tiene el padre (materia) es decir que tiene el alumno aparte de persona en este caso es materia
+        Luego a la variable le creo el getter y el setter, esto se hace Selecciono todas las variables, luego click derecho.
+             Generate, getter and setter, se seleccionan de nuevo todas las variables y se da en ok.
+    Luego en esta misma clase, le creo el método void (es decir vacío, para que el haga lo que le pido pero no retorne nada) en este caso lo llamo mostrarDatos
+    que me servirá para la acción que es la que llama el get y el set de todas las variables.
+
+3-voy al otro hijo y le hago lo mismo que con la clase Alumno en este caso creare una que se llame Profesor
+
+Luego voy al main y le pongo los valores que van a llevar las variables y llamo la acción que hay en cada uno de los hijos
