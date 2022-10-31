@@ -1,4 +1,4 @@
-package com.maoruiz.Ejercicios_Semillero_QA;
+package com.maoruiz.Ejercicios_Semillero_QA.Talleres;
 
 import java.util.StringTokenizer;
 
@@ -29,11 +29,11 @@ public class Taller_Basico {
         int numero1 = 1, numero3 = 3, numero4 = 4;
         double numero2 = 2;
         System.out.println("Estos son los valores de cada una de las variables: "+numero1 + " "+ numero2+ " " + numero3 + " " + numero4 );
-        System.out.println("Este es el resultado de la suma es " + (numero1 + numero2));
-        System.out.println("Este es el resultado de la resta es " + (numero2 - numero1));
-        System.out.println("Este es el resultado de la multiplicación es " + (numero4 * numero3));
-        System.out.println("Este es el resultado de la division es " + (numero1 / numero2));
-        System.out.println("Este es el resultado del residuo es " + (numero4 % numero3));
+        System.out.println("El resultado de la suma entre " + numero1+ " y " + numero2 +" es: "+ "["+(numero1 + numero2)+"]");
+        System.out.println("El resultado de la resta entre " + numero2+ " y " + numero1 +" es: "+ "["+(numero2 - numero1)+"]");
+        System.out.println("El resultado de la multiplicación entre " + numero4+ " y " + numero3 +" es: "+ "["+(numero4 * numero3)+"]");
+        System.out.println("El resultado de la división entre " + numero1+ " y " + numero2 +" es: "+ "["+(numero1 / numero2)+"]");
+        System.out.println("El resultado del residuo de la división entre " + numero4+ " y " + numero3 +" es: "+ "["+(numero1 % numero2)+"]");
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //3)Escriba un programa en java que lea dos caracteres cualquiera y compruebe si son iguales.
@@ -41,9 +41,9 @@ public class Taller_Basico {
         System.out.println("\nEste es el resultado del ejercicio # 3 ");
         String nombre1 = "Mao";
         char char1 = nombre1.charAt(0);
-        System.out.println("El carácter de la posición 0 es: " + char1);
+        System.out.println("El carácter de la posición 0 de la palabra " + "["+ nombre1+ "]"+ " es: " + char1);
         char char2 = nombre1.charAt(1);
-        System.out.println("El carácter de la posición 1 es: " + char2);
+        System.out.println("El carácter de la posición 1 de la palabra " + "["+ nombre1+ "]"+ " es: " + char2);
         if (char1 == char2) {
             System.out.println("Los caracteres Son iguales");
         } else System.out.println("Los caracteres Son diferentes");
@@ -51,6 +51,7 @@ public class Taller_Basico {
 
     //4)Realizar un programa en Java que muestre en consola los números del 1 al 100 utilizando la instrucción (for).
         System.out.println("\nEste es el resultado del ejercicio # 4 ");
+        System.out.println("Estos son los numero ordenados del 1 al 100 utilizando un ciclo For");
         for (int i = 1; i <= 100; i++) {
             System.out.print(i + ",");
         }
@@ -59,6 +60,7 @@ public class Taller_Basico {
     //5)Realizar un programa en Java que muestre en consola los números del 100 al 1 utilizando la instrucción (while).
         System.out.println("\nEste es el resultado del ejercicio # 5 ");
         int num = 1;
+        System.out.println("Estos son los numero ordenados del 1 al 100 utilizando un ciclo While");
         while (num <= 100) {
             System.out.print(num + ",");
             num++;
@@ -68,6 +70,7 @@ public class Taller_Basico {
     //6)Realizar un programa en Java que muestre en consola los números del 100 al 1 utilizando la instrucción (do.while).
         System.out.println("\nEste es el resultado del ejercicio # 6 ");
         int num1 = 100;
+        System.out.println("Estos son los numero ordenados del 1 al 100 utilizando un ciclo Do.While");
         do {
             System.out.print(num1 + ",");
             num1--;
@@ -78,15 +81,15 @@ public class Taller_Basico {
         System.out.println("\nEste es el resultado del ejercicio # 7 ");
         //cree una variable de tipo StringTokenizer para poder utilizar la de CountTokens y asi contar las frases
         StringTokenizer nombre2 = new StringTokenizer("Mauricio Ruiz Herrera");
-        System.out.println("El String contiene " + nombre2.countTokens() + " frases");
+        System.out.println("El String Mauricio Ruiz Herrera contiene :" + nombre2.countTokens() + " frases");
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //8)Escriba el código en Java que me permita validar si un número es positivo o negativo. Imprimir en la consola si el número ingresado es: “Positivo” o “Negativo”
         System.out.println("\nEste es el resultado del ejercicio # 8 ");
         int num2 = -1;
         if (num2 < 0) {
-            System.out.println("El numero " + num2 + " es Negativo");
-        } else System.out.println("El numero " + num2 + " es Positivo");
+            System.out.println("Después de validar observamos que el numero " + num2 + " es: Negativo");
+        } else System.out.println("Después de validar observamos que el numero " + num2 + " es: Positivo");
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //9)En Java declare una variable de tipo entero que contenga un valor entre 0 y 3. Escribir el código que me muestre en consola el valor de dicha nota en letras.
@@ -125,7 +128,7 @@ public class Taller_Basico {
         int n1 = 50, n2 = 30;
         boolean suma1 = true; // esta variable no se necesito.
         int suma = n1 + n2;
-        System.out.println("La suma es: " + suma);
+        System.out.println("La suma entre " +n1+ " y " + n2+ " es: " + suma);
         System.out.println("-----------------------------------------------------------------------------------------");
 
     /*11)Corrige los 4 fallos del siguiente programa para que funcione:
@@ -148,10 +151,10 @@ public class Taller_Basico {
 */
         System.out.println("\nEste es el resultado del ejercicio # 12 ");
         int A = 1, B = 2, C = 3, D = 4;
-        System.out.println("B que es 2 toma el valor de C que es " + C);
-        System.out.println("C que es 3 toma el valor de A que es " + A);
-        System.out.println("A que es 1 toma el valor de D que es " + D);
-        System.out.println("D que es 4 toma el valor de B que es " + B);
+        System.out.println("A que es 1 toma el valor de D quedando en: " + D);
+        System.out.println("B que es 2 toma el valor de C quedando en: " + C);
+        System.out.println("C que es 3 toma el valor de A quedando en: " + A);
+        System.out.println("D que es 4 toma el valor de B quedando en: " + B);
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //13)Escriba un programa en java que después de declarar dos variables las concatene y las muestre en consola
@@ -163,13 +166,13 @@ public class Taller_Basico {
     //14)Realizar un programa en java que: convierta todos los caracteres de una cadena de caracteres en mayúscula. Mostrar por consola la prueba de que funciona.
         System.out.println("\nEste es el resultado del ejercicio # 14 ");
         String cadena2 = "hola mundo";
-        System.out.println(cadena2.toUpperCase());
+        System.out.println("convertimos la frase "+cadena2+ " en MAYUSCULA: " + cadena2.toUpperCase());
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //15)Realizar un programa en java que: convierta todos los caracteres de una cadena de caracteres en minúscula. Mostrar por consola la prueba de que funciona.
         System.out.println("\nEste es el resultado del ejercicio # 15 ");
         String cadena3 = "HOLA MUNDO";
-        System.out.println(cadena3.toLowerCase());
+        System.out.println("convertimos la frase "+cadena3+ " en minuscule: " + cadena3.toLowerCase());
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //16)Teniendo la siguiente lista de números {2,5,8,10,12,25,3,7} escriba un programa en Java que me indique el valor del número mayor y su posición en la lista
@@ -186,7 +189,7 @@ public class Taller_Basico {
         }
         // Ahora podemos obtener el mayor usando la posición
         int mayor = numeros[indiceDelMayor];
-        System.out.println("El numero mayor es: " + mayor + " y se encuentra en la posición " + indiceDelMayor);
+        System.out.println("El numero mayor encontrado en el arregle es: " + mayor + " y se encuentra en la posición " + indiceDelMayor);
         System.out.println("-----------------------------------------------------------------------------------------");
 
     //17)Cree dos Arrays en Java, el primero con una lista de 5 nombres y el segundo con una lista de 5 números enteros.

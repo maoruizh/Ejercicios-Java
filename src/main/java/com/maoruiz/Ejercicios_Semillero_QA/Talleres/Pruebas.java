@@ -1,4 +1,4 @@
-package com.maoruiz.Ejercicios_Semillero_QA;
+package com.maoruiz.Ejercicios_Semillero_QA.Talleres;
 
 import java.util.Scanner;
 

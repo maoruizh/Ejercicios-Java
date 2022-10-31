@@ -1,4 +1,4 @@
-package com.maoruiz.Ejercicios_Semillero_QA;
+package com.maoruiz.Ejercicios_Semillero_QA.Talleres;
 
 import javax.swing.*;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class Taller {
 
 //2)Convertir una frase a mayúsculas o minúsculas, que daremos opción a que el usuario lo pida y mostraremos el resultado por pantalla.
         System.out.println("\nEste es el resultado del ejercicio # 2");
-        String frase = "Que taller tan carnudo y bueno para aprender";
+        String frase = "\"Que taller tan carnudo y bueno para aprender\"";
         Scanner tipoDeLetra = new Scanner(System.in);
         System.out.print("Quieres ver la frase en MAYUSCULA o minuscula?: ");
         String busqueda = tipoDeLetra.nextLine();
@@ -49,7 +49,7 @@ public class Taller {
         System.out.println("El primer nombre es [" + nombre1 + "] y el segundo nombre es [" + nombre2+"]");
         if (nombre1.equals(nombre2)) {
             System.out.println("Entonces los dos nombres son iguales"); //No está funcionando bien
-        } else System.out.println("Entonces los DOS nombres son diferentes");
+        } else System.out.println("Entonces los dos nombres son diferentes");
         System.out.println("-----------------------------------------------------------------------------------------");
         ;
 
@@ -65,7 +65,7 @@ public class Taller {
         System.out.println("\nEste es el resultado del ejercicio # 6");
         int numerosEnteros[] = {40, 35, 28, 25, 37};
         for (int i = 0; i < numerosEnteros.length; i++) {
-            System.out.println("Los valores del arreglo son: " + numerosEnteros[i]);
+            System.out.println("Después de crear un arreglo con 5 posiciones, los valores del arreglo son: " + numerosEnteros[i]);
         }
         System.out.println("-----------------------------------------------------------------------------------------");
 
@@ -118,7 +118,7 @@ public class Taller {
 //También debemos declarar las variables que se vayan a usar y devolver un valor, que corresponda al tipo de variable).
         System.out.println("\nEste es el resultado del ejercicio # 10");
         Scanner leer = new Scanner(System.in);
-        System.out.print("Por favor introduce el tamaño con el que quieres crear los dos vectores: ");
+        System.out.print("Por favor introduce el tamaño con el que quisieras crear dos vectores: ");
         int tam = leer.nextInt();
         String[] nombres = new String[tam];
         int[] longitudes = new int[tam];
@@ -135,6 +135,7 @@ public class Taller {
 //11)Imprimir la posición de todos los elementos mayores a cinco de un vector.
         System.out.println("\nEste es el resultado del ejercicio # 11");
         int vector1 [] = {1, 3, 5, 9, 15, 26, 45, 4, 44, 10};
+        System.out.println("Después de leer todos los valores del arreglo, solo imprimiremos los valores mayores a 5");
         for (int i = 0; i < vector1.length; i++) {
             if (vector1[i] > 5) {
                 System.out.println("El numero " + vector1[i] + " esta en la posición " + i);
@@ -146,6 +147,7 @@ public class Taller {
         System.out.println("\nEste es el resultado del ejercicio # 12");
         int impares [] = new int[25];
         int num = 1;
+        System.out.println("Los números impares del 1 al 50 son: ");
         for (int i = 0; i < impares.length; i++) {
             impares[i] = num;
             num += 2;
@@ -157,7 +159,7 @@ public class Taller {
 //Mostrar el vector con los valores al final.
         System.out.println("\nEste es el resultado del ejercicio # 13");
         Scanner leer1 = new Scanner(System.in);
-        System.out.print("Digita el tamaño que deseas para el vector: ");
+        System.out.print("\"Por favor introduce el tamaño con el que quisieras crear un vector: ");
         int tam1 = leer.nextInt();
         int[] tamaño = new int[tam1];
         for (int i = 0; i < tamaño.length; i++) {
@@ -170,6 +172,7 @@ public class Taller {
                 }
             }
         }
+        System.out.println("Los valores ingresados son: ");
         for (int i = 0; i < tamaño.length; i++) {
             System.out.print("[" +tamaño[i]+ "]");
         }
