@@ -17,8 +17,8 @@ public class Alumno extends Persona {
         Materia = materia;
     }
 
-    public void mostrarDatos (){ //porque no se pide la cédula del alumno y porque se inicia con Null,
-        JOptionPane.showMessageDialog(null,"Alumno \nNombre: "+getNombre()+"\nApellido: "+getApellido()+"\nEdad: "+getEdad()+"\nGenero: "+getGenero()
-        +"\nCédula: "+getCedula()+"\nMateria: "+getMateria());
+    public void mostrarDatos() { //porque no se pide la cédula del alumno y porque se inicia con Null,
+        JOptionPane.showMessageDialog(null, "Alumno \nNombre: " + getNombre() + "\nApellido: " + getApellido() + "\nEdad: " + getEdad() + "\nGenero: " + getGenero()
+                + "\nCédula: " + getCedula() + "\nMateria: " + getMateria());
     }
 }
