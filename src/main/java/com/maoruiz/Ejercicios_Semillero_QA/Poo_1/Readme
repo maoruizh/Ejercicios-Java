@@ -11,8 +11,8 @@
     Luego le creo la variable publica que lleva la clase alumno y que no tiene el padre (materia) es decir que tiene el alumno aparte de persona en este caso es materia
         Luego a la variable le creo el getter y el setter, esto se hace Selecciono todas las variables, luego click derecho.
              Generate, getter and setter, se seleccionan de nuevo todas las variables y se da en ok.
-    Luego en esta misma clase, le creo el método void (es decir vacío, para que el haga lo que le pido pero no retorne nada) en este caso lo llamo mostrarDatos
-    que me servirá para la acción que es la que llama el get y el set de todas las variables.
+    Luego en esta misma clase, le creo el método void (es decir vacío, para que el haga lo que le pido pero no retorne nada porque las acciones las pediré desde el la clase Main)
+    en este caso lo llamo mostrarDatos que me servirá para la acción que es la que llama el get y el set de todas las variables.
 
 3-voy al otro hijo y le hago lo mismo que con la clase Alumno en este caso creare una que se llame Profesor
 
