@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Ejercicio11Scanner {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.println("¿Cual es el titulo del libro?");
-        String titulo = scanner.nextLine();
+        String titulo = entrada.nextLine();
 
         System.out.println("¿Cual es el autor?");
-        String autor = scanner.nextLine();
+        String autor = entrada.nextLine();
 
         System.out.println(titulo + " fue escrito por " + autor);
     }

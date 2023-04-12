@@ -1,17 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2922be83-b3b4-43be-91a4-962231cd2674" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/operadores/Ejercicio08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/I03Palabras reservadas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I01EjemploUno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I02InversorDePalabras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I04Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I04SumaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I05Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I05RectanguloMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I06LLFunciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I06Lavadora_Uno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I07LLFuncionesGyS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geekipedia/src/nivel/intermedio/I07Lavadora_UnoGyS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/Ejerccicios_Geekipedia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B01HolaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B02Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B03Operaciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B04Promedio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B05Operaciones2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B06SumaScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B07Sistema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B08SwitchCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B09CicloFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B10CicloWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B11CicloDowhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B12Ciclos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B13Ciclos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B14Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B15NombresEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B16Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B17CadenaLengthSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B18Vectores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B19VectoresDinamicos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B20Matrices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B21MatricesDinamicas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B22VentanaTexto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B23Ventana2Textos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B24Ventana1Boton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B25Ventana3Botones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B26CajaDeTexto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B27AreaTexto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B28ScrollPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B29Parse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B30Lista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B31RGB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B32Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B33SubMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B34CheckBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B35Terminos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/ejercicios/B36RadioButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/proyectofinal/Bienvenida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/proyectofinal/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/basico/proyectofinal/Terminos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I01EjemploUno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I02InversorDePalabras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I03Palabras reservadas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I04Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I04SumaMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I05Rectangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I05RectanguloMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I06LLFunciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I06Lavadora_Uno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I07LLFuncionesGyS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/out/production/Ejerccicios_Geekipedia/nivel/intermedio/ejercicios/I07Lavadora_UnoGyS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B01HolaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B02Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B03Operaciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B04Promedio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B05Operaciones2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B06SumaScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B07Sistema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B08SwitchCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B09CicloFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B10CicloWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B11CicloDowhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B12Ciclos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B13Ciclos2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B14Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B15NombresEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B16Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B17CadenaLengthSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B18Vectores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B19VectoresDinamicos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B20Matrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B21MatricesDinamicas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B22VentanaTexto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B23Ventana2Textos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B24Ventana1Boton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B25Ventana3Botones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B26CajaDeTexto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B27AreaTexto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B28ScrollPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B29Parse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B30Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B31RGB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B32Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B33SubMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B34CheckBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B35Terminos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/ejercicios/B36RadioButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/proyectofinal/Bienvenida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/proyectofinal/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/basico/proyectofinal/Terminos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I01EjemploUno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I02InversorDePalabras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I03Palabras reservadas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I04Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I04SumaMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I05Rectangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I05RectanguloMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I06LLFunciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I06Lavadora_Uno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I07LLFuncionesGyS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejerccicios_Geekipedia/src/nivel/intermedio/ejercicios/I07Lavadora_UnoGyS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +150,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Documents/GitHub/Ejercicios-Java/Ejercicios_ATS/src/ejercicios/condicionales"
+    "last_opened_file_path": "C:/Users/ASUS/Documents/GitHub/Ejercicios-Java/Ejercicios_ATS"
   }
 }]]></component>
   <component name="RecentsManager">
